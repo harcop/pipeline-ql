@@ -1,0 +1,25 @@
+<div className="main">
+        <div className="shape-filter">
+        <h3>Filter</h3>
+        <h3>Shapes</h3>
+        <div>
+          {shapes.map((shape) => (
+            <div key={shapes.indexOf(shape)} onClick={() => insertFilter(shape, 'shape')} className={`shape-filter-element ${selectedShape.includes(shape) ? 'shape-active' : 'null'}`}>{shape}</div>
+          ))}
+        </div>
+        </div>
+        <div className="color-filter">
+            <h3>Colors</h3>
+            <div>
+              {colors.map((color) => (
+                <div key={colors.indexOf(color)} onClick={() => insertFilter(color, 'color')}  className={`color-round ${selectedColor.includes(color) ? 'color-active' : 'null'}`} style={{backgroundColor: color}}></div>
+              ))}
+            </div>
+        </div>
+        <div>
+          {filterText} ({filterCount})
+        </div>
+        <div className="shape-grid">
+          <Grid shapes={shapeColor.filter(filtering)} />
+        </div>
+        </div>

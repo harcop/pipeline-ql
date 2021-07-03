@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main {
+  background-color: #F5F6FD;
+  padding: 40px;
+}
+.shape {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.shape-filter-element {
+  padding: 5px;
+  border-radius: 10px;
+  border: solid gray 2px;
+  display: inline-block;
+  margin: 3px;
+}
+
+.shape-filter-element.shape-active {
+  background-color: skyblue;
+  border: solid 2px #CDD9F7
+}
+.color-filter {
+  border-radius: 100%;
+}
+.color-round.color-active {
+  border: solid 2px black
+}
+.Oval {
+  height: 40px;
+  border-radius: 100%;
+}
+.Round {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+.Square {
+  /* width: 50px;
+  height: 30px; */
+}
+.Rectangle {
+  height: 50px;
+}
+.Triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.color-round {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 5px;
+}
+.shape-parent {
+  background: white;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.grid-parent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px
+}
+.red {
+  background-color: red
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow
+}
+.green{
+  background-color: green
+}
+.skyblue {
+  background-color: skyblue
+}
+.gray{
+  background-color: gray
+}

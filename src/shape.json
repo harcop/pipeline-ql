@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Oval",
+        "color": "red"
+    },
+    {
+        "name": "Oval",
+        "color": "blue"
+    },
+    {
+        "name": "Oval",
+        "color": "green"
+    },
+    {
+        "name": "Oval",
+        "color": "yellow"
+    },
+    {
+        "name": "Oval",
+        "color": "skyblue"
+    },
+    {
+        "name": "Oval",
+        "color": "gray"
+    },
+    {
+        "name": "Round",
+        "color": "red"
+    },
+    {
+        "name": "Round",
+        "color": "blue"
+    },
+    {
+        "name": "Round",
+        "color": "green"
+    },
+    {
+        "name": "Round",
+        "color": "yellow"
+    },
+    {
+        "name": "Round",
+        "color": "skyblue"
+    },
+    {
+        "name": "Round",
+        "color": "gray"
+    },
+    {
+        "name": "Triangle",
+        "color": "red"
+    },
+    {
+        "name": "Triangle",
+        "color": "blue"
+    },
+    {
+        "name": "Triangle",
+        "color": "green"
+    },
+    {
+        "name": "Triangle",
+        "color": "yellow"
+    },
+    {
+        "name": "Triangle",
+        "color": "skyblue"
+    },
+    {
+        "name": "Triangle",
+        "color": "gray"
+    },
+    {
+        "name": "Square",
+        "color": "red"
+    },
+    {
+        "name": "Square",
+        "color": "blue"
+    },
+    {
+        "name": "Square",
+        "color": "green"
+    },
+    {
+        "name": "Square",
+        "color": "yellow"
+    },
+    {
+        "name": "Square",
+        "color": "skyblue"
+    },
+    {
+        "name": "Square",
+        "color": "gray"
+    },
+    {
+        "name": "Rectangle",
+        "color": "red"
+    },
+    {
+        "name": "Rectangle",
+        "color": "blue"
+    },
+    {
+        "name": "Rectangle",
+        "color": "green"
+    },
+    {
+        "name": "Rectangle",
+        "color": "yellow"
+    },
+    {
+        "name": "Rectangle",
+        "color": "skyblue"
+    },
+    {
+        "name": "Rectangle",
+        "color": "gray"
+    }
+]
